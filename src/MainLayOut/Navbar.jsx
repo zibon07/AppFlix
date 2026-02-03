@@ -4,7 +4,8 @@ import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
     return (
-        <div className="navbar px-10 bg-base-100 shadow-sm">
+        <div>
+            <div className="navbar px-10 bg-base-100 shadow-sm">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,6 +34,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <a href='https://github.com/zibon07' target='_blank' className="btn font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"><img src="../../public/fi_2111432.png" alt="" />Contribute</a>
             </div>
+        </div>
         </div>
     );
 };

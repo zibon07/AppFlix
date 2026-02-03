@@ -1,10 +1,9 @@
 import React from 'react';
+import Hero from '../../MainLayOut/Hero';
 
 const Home = () => {
     return (
-        <div>
-            <h1>ami home</h1>
-        </div>
+        <Hero></Hero>
     );
 };
 
