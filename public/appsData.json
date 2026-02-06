@@ -1,0 +1,526 @@
+[
+  {
+    "image": "https://img.icons8.com/color/512/tree.png",
+    "title": "Forest : Focus for Productivity",
+    "companyName": "Seekrtech",
+    "id": 1,
+    "description": "Forest helps you stay focused by growing virtual trees while you work or study. When you avoid distractions and keep your phone away, your forest grows, motivating you to build healthy productivity habits and long-term concentration skills every day.",
+    "size": 45,
+    "reviews": 125000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 77000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/planner.png",
+    "title": "smPlan : Smart Daily Planning",
+    "companyName": "SmartMind Ltd",
+    "id": 2,
+    "description": "smPlan allows you to organize your daily tasks, study schedules, and work goals in one simple interface. It helps you manage time effectively, reduce stress, and stay focused on your most important priorities.",
+    "size": 32,
+    "reviews": 42000,
+    "ratingAvg": 4.4,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 19000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/flip.png",
+    "title": "FLIP : Disconnect to Focus",
+    "companyName": "FocusTech",
+    "id": 3,
+    "description": "FLIP encourages you to place your phone face down and avoid unnecessary notifications. It helps block distractions, track focus time, and build healthier digital habits for students and professionals.",
+    "size": 28,
+    "reviews": 67000,
+    "ratingAvg": 4.5,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 36300 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/cat.png",
+    "title": "Pomocat : Study with Cute Cats",
+    "companyName": "CatFocus Studio",
+    "id": 4,
+    "description": "Pomocat combines the Pomodoro technique with adorable cat companions. It makes studying fun, manages break times, and motivates you to complete tasks consistently without feeling bored.",
+    "size": 22,
+    "reviews": 38000,
+    "ratingAvg": 4.6,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 18800 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/time.png",
+    "title": "TimePlanet : Manage Your Time",
+    "companyName": "Orbit Apps",
+    "id": 5,
+    "description": "TimePlanet helps you track daily activities, analyze how you spend time, and improve productivity. With smart reports and reminders, it supports better planning and long-term goal achievement.",
+    "size": 40,
+    "reviews": 29000,
+    "ratingAvg": 4.2,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/alarm-clock.png",
+    "title": "Flip Clock : Minimal Time Display",
+    "companyName": "Clockify Labs",
+    "id": 6,
+    "description": "Flip Clock offers a clean and stylish digital clock interface for desks, phones, and tablets. It is perfect for studying, working, or displaying time with a distraction-free design.",
+    "size": 15,
+    "reviews": 54000,
+    "ratingAvg": 4.8,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 33000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/sunrise.png",
+    "title": "Morning Habits : Start Your Day Right",
+    "companyName": "HabitFlow",
+    "id": 7,
+    "description": "Morning Habits helps you build strong routines like waking up early, exercising, and reading. It encourages consistency and helps you begin each day with energy, confidence, and motivation.",
+    "size": 27,
+    "reviews": 46000,
+    "ratingAvg": 4.3,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 20500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/512/plant-under-sun.png",
+    "title": "Focus Plant : Grow While You Focus",
+    "companyName": "GreenMind Devs",
+    "id": 8,
+    "description": "Focus Plant motivates you to stay productive by growing virtual plants during focus sessions. The longer you concentrate, the healthier your plants become, building discipline and consistency.",
+    "size": 35,
+    "reviews": 72000,
+    "ratingAvg": 4.6,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 6500 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 40500 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/flow-chart.png",
+    "title": "Focus Flow : Deep Work Sessions",
+    "companyName": "Flow Labs",
+    "id": 9,
+    "description": "Focus Flow helps you enter deep work mode using structured sessions and productivity analytics. It tracks your progress, reduces procrastination, and helps you achieve better results in less time.",
+    "size": 30,
+    "reviews": 52000,
+    "ratingAvg": 4.5,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 26600 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/timer.png",
+    "title": "Study Timer : Focused Study Sessions",
+    "companyName": "EduSoft",
+    "id": 10,
+    "description": "Study Timer provides simple and reliable focus sessions for students. It helps you manage breaks, improve concentration, and stay consistent while preparing for exams and daily lessons.",
+    "size": 18,
+    "reviews": 21000,
+    "ratingAvg": 4.3,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 8900 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/task.png",
+    "title": "TaskZen : Simple Task Management",
+    "companyName": "ZenWare",
+    "id": 11,
+    "description": "TaskZen offers a minimal and peaceful way to manage daily tasks. It reduces clutter, improves focus, and helps you complete important work without feeling overwhelmed.",
+    "size": 26,
+    "reviews": 34000,
+    "ratingAvg": 4.4,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 15200 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/brain.png",
+    "title": "MindTrack : Habits and Mood Tracker",
+    "companyName": "NeuroTech",
+    "id": 12,
+    "description": "MindTrack helps you monitor habits, moods, and productivity patterns. With smart insights and visual reports, it supports personal growth and emotional balance.",
+    "size": 34,
+    "reviews": 41000,
+    "ratingAvg": 4.6,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 14000 },
+      { "name": "5 star", "count": 21100 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/idea.png",
+    "title": "Daily Boost : Motivation Every Day",
+    "companyName": "Boost Inc",
+    "id": 13,
+    "description": "Daily Boost delivers inspirational content, productivity tips, and daily reminders. It helps you stay positive, focused, and motivated throughout busy schedules.",
+    "size": 21,
+    "reviews": 28000,
+    "ratingAvg": 4.2,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 11500 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/conference-call.png",
+    "title": "FocusMate : Accountability Partner",
+    "companyName": "Sync Labs",
+    "id": 14,
+    "description": "FocusMate connects you with real accountability partners. Work together in live sessions, reduce procrastination, and stay committed to your personal and professional goals.",
+    "size": 29,
+    "reviews": 47000,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 26200 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/project.png",
+    "title": "WorkZone : Project Organizer",
+    "companyName": "ProSoft",
+    "id": 15,
+    "description": "WorkZone helps you organize projects, manage deadlines, and collaborate efficiently. It improves workflow and ensures tasks are completed on time.",
+    "size": 42,
+    "reviews": 39000,
+    "ratingAvg": 4.4,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 18800 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/stopwatch.png",
+    "title": "TimeKeeper : Track Every Minute",
+    "companyName": "Chronos Dev",
+    "id": 16,
+    "description": "TimeKeeper tracks how you spend time across activities. It helps you identify wasted hours, improve productivity, and build stronger daily routines.",
+    "size": 24,
+    "reviews": 25000,
+    "ratingAvg": 4.1,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 9700 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/students.png",
+    "title": "Study Plus : Smart Learning Planner",
+    "companyName": "LearnTech",
+    "id": 17,
+    "description": "Study Plus helps students organize lessons, exams, and revision schedules. It improves focus, reduces stress, and boosts academic performance.",
+    "size": 33,
+    "reviews": 36000,
+    "ratingAvg": 4.5,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 17900 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/goal.png",
+    "title": "Goal Path : Achieve Your Goals",
+    "companyName": "Pathway Ltd",
+    "id": 18,
+    "description": "Goal Path helps you set clear goals, track progress visually, and stay motivated. It guides you step by step toward personal success.",
+    "size": 28,
+    "reviews": 31000,
+    "ratingAvg": 4.4,
+    "downloads": 1750000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 10500 },
+      { "name": "5 star", "count": 14200 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/checked-checkbox.png",
+    "title": "Habit Sync : Build Better Habits",
+    "companyName": "RoutinePro",
+    "id": 19,
+    "description": "Habit Sync helps you develop positive routines through reminders, tracking, and insights. It supports long-term behavior change and self-improvement.",
+    "size": 25,
+    "reviews": 44000,
+    "ratingAvg": 4.6,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 14000 },
+      { "name": "5 star", "count": 24700 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/mental-health.png",
+    "title": "Brain Boost : Improve Your Focus",
+    "companyName": "MindApps",
+    "id": 20,
+    "description": "Brain Boost offers cognitive exercises and focus training. It strengthens mental performance, improves attention span, and supports brain health.",
+    "size": 31,
+    "reviews": 27000,
+    "ratingAvg": 4.3,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 11700 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/meditation.png",
+    "title": "Zen Focus : Calm and Productive",
+    "companyName": "CalmSoft",
+    "id": 21,
+    "description": "Zen Focus blends meditation and productivity tools. It helps reduce stress, improve mindfulness, and enhance deep focus during work sessions.",
+    "size": 36,
+    "reviews": 48000,
+    "ratingAvg": 4.7,
+    "downloads": 3300000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 28600 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/rocket.png",
+    "title": "TaskPilot : Smart Task Guidance",
+    "companyName": "Pilot Tech",
+    "id": 22,
+    "description": "TaskPilot guides you through daily tasks using intelligent planning. It improves efficiency and helps you stay on track.",
+    "size": 29,
+    "reviews": 30000,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 13600 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/calendar.png",
+    "title": "Life Planner : Organize Your Life",
+    "companyName": "LifeTech",
+    "id": 23,
+    "description": "Life Planner brings your work, personal goals, and schedules into one place. It helps you balance life and productivity effectively.",
+    "size": 45,
+    "reviews": 55000,
+    "ratingAvg": 4.6,
+    "downloads": 3700000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 17000 },
+      { "name": "5 star", "count": 30800 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/books.png",
+    "title": "Study Mate : Your Learning Partner",
+    "companyName": "Campus Apps",
+    "id": 24,
+    "description": "Study Mate supports students with smart schedules, reminders, and learning tools. It improves consistency and exam preparation.",
+    "size": 27,
+    "reviews": 26000,
+    "ratingAvg": 4.2,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4600 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/lightning-bolt.png",
+    "title": "Power Focus : Deep Work Tools",
+    "companyName": "PeakSoft",
+    "id": 25,
+    "description": "Power Focus offers advanced tools for deep work sessions. It helps eliminate distractions and maximize mental performance.",
+    "size": 38,
+    "reviews": 42000,
+    "ratingAvg": 4.5,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 14000 },
+      { "name": "5 star", "count": 22300 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/reminder.png",
+    "title": "Daily Focus : Stay Productive",
+    "companyName": "FocusHub",
+    "id": 26,
+    "description": "Daily Focus sends smart reminders and productivity insights. It keeps you aligned with goals and daily priorities.",
+    "size": 23,
+    "reviews": 29000,
+    "ratingAvg": 4.3,
+    "downloads": 1650000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 9300 },
+      { "name": "5 star", "count": 13300 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/schedule.png",
+    "title": "Plan Master : Master Your Schedule",
+    "companyName": "MasterSoft",
+    "id": 27,
+    "description": "Plan Master helps you control schedules, deadlines, and personal goals. It improves organization and long-term success.",
+    "size": 41,
+    "reviews": 46000,
+    "ratingAvg": 4.6,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 25600 }
+    ]
+  },
+
+  {
+    "image": "https://img.icons8.com/color/512/todo-list.png",
+    "title": "Focus Daily : Build Daily Discipline",
+    "companyName": "DailyApps",
+    "id": 28,
+    "description": "Focus Daily builds daily discipline through routines, reminders, and focus tracking. It helps you become more consistent and productive over time.",
+    "size": 26,
+    "reviews": 33000,
+    "ratingAvg": 4.4,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4400 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 15900 }
+    ]
+  }
+]
