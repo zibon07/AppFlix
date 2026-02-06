@@ -1,8 +1,6 @@
 import React from 'react';
 
-
-const TrendingApps = ({ app }) => {
-    console.log(app)
+const App = ({app}) => {
     return (
         <div className='max-w-[350px] mx-auto bg-white h-[430px] p-2 rounded-2xl'>
             <img className='w-[335px] h-[335px] object-cover p-3 rounded-2xl' src={app.image} alt="" />
@@ -15,4 +13,4 @@ const TrendingApps = ({ app }) => {
     );
 };
 
-export default TrendingApps;
+export default App;

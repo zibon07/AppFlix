@@ -2,10 +2,11 @@ import React from 'react';
 import Hero from '../../MainLayOut/Hero';
 import TrendingApps from '../TrendingApps';
 import useApps from '../../useApps/useApps';
+import { Link } from 'react-router';
 
 const Home = () => {
     const { apps, loading, error } = useApps()
-    const trendingApps = apps.splice(0, 8)
+    const trendingApps = apps.slice(0, 8)
 
     return (
         <div>
@@ -19,7 +20,7 @@ const Home = () => {
                     }
                 </div>
                 <div className='text-center'>
-                    <button className='btn font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white '>Show All Apps</button>
+                    <Link to={'/apps'}><button className='btn font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white '>Show All Apps</button></Link>
                 </div>
             </div>
         </div>
