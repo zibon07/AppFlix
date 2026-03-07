@@ -5,7 +5,7 @@ import useApps from '../../useApps/useApps';
 import { Link } from 'react-router';
 
 const Home = () => {
-    const { apps} = useApps()
+    const { apps } = useApps()
     const trendingApps = apps.slice(0, 8)
 
     return (
