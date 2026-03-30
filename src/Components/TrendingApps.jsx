@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 
 const TrendingApps = ({ app }) => {
-    console.log(app)
+    // console.log(app)
     return (
         <Link to={`/appDetails/${app.id}`}>
         <div className='max-w-[350px] mx-auto bg-white h-[430px] p-2 rounded-2xl hover:scale-105 transition ease-in-out shadow-lg'>

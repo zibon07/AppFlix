@@ -2,7 +2,7 @@ import React from 'react';
 import { createBrowserRouter } from "react-router";
 import Home from '../Components/Home.jsx/Home';
 import Apps from '../Pages/Apps';
-import Installation from '../Pages/Installation';
+import Installation from '../Pages/InstalledApps';
 import Root from '../Root/Root';
 import AppDetails from '../Pages/AppDetails';
 
