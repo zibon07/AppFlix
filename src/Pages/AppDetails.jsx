@@ -29,7 +29,7 @@ const AppDetails = () => {
 
     return (
         <div className="bg-gray-100 min-h-[80vh] ">
-            <div className="flex p-15 items-center gap-10">
+            <div className="flex flex-col lg:flex-row p-15 text-center lg:text-left items-center gap-10">
                 <img
                     src={app.image}
                     className="rounded-lg shadow-2xl"
@@ -39,7 +39,7 @@ const AppDetails = () => {
                     <h3 className="py-4 font-bold text-gray-600">
                         Developed by  <span className=' text-2xl font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>{app.companyName}</span>
                     </h3>
-                    <div className='flex gap-10'>
+                    <div className='flex flex-col lg:flex-row gap-10'>
                         <div className='flex flex-col items-center '>
                             <img className='w-8 h-8' src="../../public/icon-downloads.png" alt="" />
                             <p className='text-gray-600 font-semibold '>Downloads</p>
