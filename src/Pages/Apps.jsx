@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import useApps from '../useApps/useApps';
 import App from './App';
+import Skeleton from './Skeleton/Skeleton';
+import NotFoundApps from './NotFoundApps/NotFoundApps';
 
 const Apps = () => {
-    const { apps } = useApps()
+    const { apps, loading } = useApps()
     const [search, setSearch] = useState('')
     const searched = search.trim().toLocaleLowerCase()
     const searchedApps = search ?
@@ -36,12 +38,37 @@ const Apps = () => {
                     <input value={search} onChange={(e) => setSearch(e.target.value)} type="search" required placeholder="Search Apps" />
                 </label>
             </div>
-            <div className='grid max-w-7xl mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5'>
+            {
+                loading ? <Skeleton count={searchedApps.length}></Skeleton> :
+                    (
+                        // <div className=''>
 
-                {
-                    searchedApps.map(app => <App key={app.id} app={app}></App>)
-                }
-            </div>
+                        //     {
+                        //         searchedApps.length > 0 ?
+                        //             searchedApps.map(app =>
+                        //                 <div className='grid max-w-7xl mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5' >
+                        //                     <App key={app.id} app={app}></App>
+                        //                 </div>) :
+                        //             <NotFoundApps></NotFoundApps>
+                        //     }
+                        // </div>
+                        <div>
+                            {
+                                searchedApps.length > 0 ? (
+                                    <div className="grid max-w-7xl mx-auto my-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                                        {
+                                            searchedApps.map(app => (
+                                                <App key={app.id} app={app}></App>
+                                            ))
+                                        }
+                                    </div>
+                                ) : (
+                                    <NotFoundApps></NotFoundApps>
+                                )
+                            }
+                        </div>
+                    )
+            }
         </div>
     );
 };

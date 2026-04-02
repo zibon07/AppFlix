@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router';
+import Skeleton from '../Pages/Skeleton/Skeleton';
 
 
 const TrendingApps = ({ app }) => {
     // console.log(app)
     return (
+        
         <Link to={`/appDetails/${app.id}`}>
             <div className='max-w-87.5 mx-auto bg-white h-107.5 p-2 rounded-2xl hover:scale-105 transition ease-in-out shadow-lg'>
                 <img className='w-83.75 h-83.75 object-cover p-3 rounded-2xl' src={app.image} alt="" />

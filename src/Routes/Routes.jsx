@@ -5,12 +5,14 @@ import Apps from '../Pages/Apps';
 import Installation from '../Pages/InstalledApps';
 import Root from '../Root/Root';
 import AppDetails from '../Pages/AppDetails';
+import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 
 
 export const router = createBrowserRouter([
     {
         path: "/",
         Component: Root,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 index: true,
@@ -22,13 +24,13 @@ export const router = createBrowserRouter([
                 Component: Apps
             },
             {
-                path:'/installation',
-                Component:Installation
+                path: '/installation',
+                Component: Installation
 
             },
             {
-                path:'/appDetails/:id',
-                Component:AppDetails
+                path: '/appDetails/:id',
+                Component: AppDetails
             }
 
         ]
