@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useParams } from 'react-router';
 import useApps from '../useApps/useApps';
 import RatingsCharts from '../RatingsCharts/RatingsCharts';
+import { toast } from 'react-toastify';
 
 
 
@@ -13,11 +14,12 @@ const AppDetails = () => {
     const [isInstalled, setIsInstalled] = useState(false)
 
     const handleInstalledApps = () => {
+        toast('App Installed')
         const existingList = JSON.parse(localStorage.getItem('installedApps'));
         let updatedList = [];
         if (existingList) {
             const isDuplicate = existingList.some(p => p.id === app.id)
-            if (isDuplicate) return alert('Already Installed')
+            if (isDuplicate) return toast('Already Installed')
             updatedList = [...existingList, app]
         } else {
             updatedList.push(app)

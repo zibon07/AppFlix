@@ -9,7 +9,7 @@ const RatingsCharts = (app) => {
     return (
 
         <div className='w-full h-64'>
-            <ResponsiveContainer width='100%' height='100%'>
+            <ResponsiveContainer  width='100%' height='100%'>
                 <BarChart layout='vertical' width={1200} height={300} data={appData.ratings} >
                 <XAxis type='number' />
                 <YAxis type='category' dataKey='name' />

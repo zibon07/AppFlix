@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 
 const InstalledApps = () => {
     const [appsList, setAppsList] = useState([]);
@@ -20,7 +21,7 @@ const InstalledApps = () => {
         const updatedList = savedApps.filter(a => a.id !== id);
         setAppsList(updatedList);
         localStorage.setItem('installedApps', JSON.stringify(updatedList))
-
+        toast("App Uninstalled")
     }
 
     useEffect(() => {
@@ -49,8 +50,8 @@ const InstalledApps = () => {
                     </label>
                 </div>
                 {
-                    sortedApps.map(a =>
-                        <div>
+                    sortedApps.map(a => 
+                        <div key={a.id}>
                             <div className='rounded-2xl py-2 px-3 my-3 flex justify-between items-center bg-white '>
                                 <div className='flex items-center gap-3'>
                                     <img className=' w-20 h-20' src={a.image} alt="" />
