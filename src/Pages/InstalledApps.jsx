@@ -51,7 +51,7 @@ const InstalledApps = () => {
                     </label>
                 </div>
                 {
-                    sortedApps.map(a => 
+                    sortedApps.map(a =>
                         <div key={a.id}>
                             <div className='rounded-2xl py-2 px-3 my-3 flex justify-between items-center bg-white '>
                                 <div className='flex items-center gap-3'>
@@ -60,11 +60,11 @@ const InstalledApps = () => {
                                         <h1 className='text-lg font-semibold'>{a.title}</h1>
                                         <div className='flex items-center gap-2'>
                                             <div className='flex items-center gap-2'>
-                                                <img className='w-4 h-4' src={'../../public/icon-downloads.png'} alt="" />
+                                                <img className='w-4 h-4' src={'/icon-downloads.png'} alt="" />
                                                 <span>{a.downloads}</span>
                                             </div>
                                             <div className='flex items-center gap-2'>
-                                                <img className='w-4 h-4' src={'../../public/icon-ratings.png'} alt="" />
+                                                <img className='w-4 h-4' src={'/icon-ratings.png'} alt="" />
                                                 <span>{a.reviews}</span>
                                             </div>
                                         </div>

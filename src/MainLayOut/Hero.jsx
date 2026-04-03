@@ -11,13 +11,13 @@ const Hero = () => {
 
             <div className='flex flex-col justify-center items-center text-center'>
                 <div className='flex gap-2 mb-4'>
-                    <a href='https://play.google.com/store/games?hl=en' target='_blank' className="btn font-semibold"><img src="../../public/fi_16076057.png" alt="" />Google play</a>
-                    
-                    <a href='https://www.apple.com/app-store/' target='_blank' className="btn font-semibold"><img src="../../public/fi_5977575.png" alt="" />App store</a>
+                    <a href='https://play.google.com/store/games?hl=en' target='_blank' className="btn font-semibold"><img src="./fi_16076057.png" alt="" />Google play</a>
+
+                    <a href='https://www.apple.com/app-store/' target='_blank' className="btn font-semibold"><img src="./fi_5977575.png" alt="" />App store</a>
                 </div>
-              
-                    <img className='max-w-[480px] ' src="../../public/hero.png" alt="" />
-                
+
+                <img className='max-w-[480px] ' src="./hero.png" alt="" />
+
             </div>
 
             <div className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] p-8 text-center'>

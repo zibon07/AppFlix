@@ -43,17 +43,17 @@ const AppDetails = () => {
                     </h3>
                     <div className='flex flex-col lg:flex-row gap-10'>
                         <div className='flex flex-col items-center '>
-                            <img className='w-8 h-8' src="../../public/icon-downloads.png" alt="" />
+                            <img className='w-8 h-8' src="/icon-downloads.png" alt="" />
                             <p className='text-gray-600 font-semibold '>Downloads</p>
                             <h2 className='text-4xl font-bold'>{app.downloads}</h2>
                         </div>
                         <div className='flex flex-col items-center  '>
-                            <img className='w-8 h-8' src="../../public/icon-ratings.png" alt="" />
+                            <img className='w-8 h-8' src="/icon-ratings.png" alt="" />
                             <p className='text-gray-600 font-semibold '>Average Ratings</p>
                             <h2 className='text-4xl font-bold'>{app.ratingAvg}</h2>
                         </div>
                         <div className='flex flex-col items-center  '>
-                            <img className='w-8 h-8' src="../../public/icon-review.png" alt="" />
+                            <img className='w-8 h-8' src="/icon-review.png" alt="" />
                             <p className='text-gray-600 font-semibold '>Total Reviews</p>
                             <h2 className='text-4xl font-bold'>{app.reviews}</h2>
                         </div>

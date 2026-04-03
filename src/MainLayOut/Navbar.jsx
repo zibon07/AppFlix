@@ -21,7 +21,7 @@ const Navbar = () => {
                         </ul>
                     </div>
 
-                    <Link className='flex  gap-1 items-center text-xl' to={'/'}><img className='w-10 h-10' src="../../public/logo.png" alt="" /> <span className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold'>AppFlix</span></Link>
+                    <Link className='flex  gap-1 items-center text-xl' to={'/'}><img className='w-10 h-10' src="./logo.png" alt="" /> <span className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold'>AppFlix</span></Link>
 
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href='https://github.com/zibon07' target='_blank' className="btn font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"><img src="../../public/fi_2111432.png" alt="" />Contribute</a>
+                    <a href='https://github.com/zibon07' target='_blank' className="btn font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"><img src="./fi_2111432.png" alt="" />Contribute</a>
                 </div>
             </div>
         </div>
